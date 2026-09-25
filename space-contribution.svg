@@ -753,13 +753,6 @@
       <text x="748" y="40" class="axis-label">Sep</text>
     </g>
 
-    <!-- Weekday Labels -->
-    <g id="weekday-labels">
-      <text x="16" y="74.5" class="axis-label" text-anchor="end">Mon</text>
-      <text x="16" y="102.5" class="axis-label" text-anchor="end">Wed</text>
-      <text x="16" y="130.5" class="axis-label" text-anchor="end">Fri</text>
-    </g>
-
     <!-- Space Stones / Asteroid Contribution Field -->
     <g id="space-stones-grid">
       <g><circle cx="53.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-21 (Level 0)</title></g>
