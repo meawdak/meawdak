@@ -7,8 +7,8 @@
 
 ![GitHub Contributions](./space-contribution.svg)
 
-## Github Stats
+## GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=meawdak&background=0D1117&border=30363D&ring=FF0000&fire=FF4500&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF4040&sideLabels=FFFFFF&dates=888888" />
+  <img src="https://streak-stats.demolab.com/?user=meawdak&background=0D1117&border=30363D&stroke=30363D&ring=C77DFF&fire=FF69B4&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF69B4&sideLabels=C77DFF&dates=888888" />
 </p>
