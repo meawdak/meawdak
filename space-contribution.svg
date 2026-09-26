@@ -43,137 +43,165 @@
       /* Left Turret Vertical Movement (Top -> Down -> Shoot Across -> Bottom -> Return) */
       @keyframes arcadeRocketTravel {
         0% { transform: translate(34px, 40px); }
-        2.16% { transform: translate(34px, 57.25px); }
-        3.43% { transform: translate(34px, 57.25px); }
-        4.28% { transform: translate(34px, 57.25px); }
-        5.88% { transform: translate(34px, 57.25px); }
-        7.47% { transform: translate(34px, 57.25px); }
-        9.22% { transform: translate(34px, 71.25px); }
-        10.5% { transform: translate(34px, 71.25px); }
-        11.35% { transform: translate(34px, 71.25px); }
-        12.94% { transform: translate(34px, 71.25px); }
-        14.53% { transform: translate(34px, 71.25px); }
-        16.28% { transform: translate(34px, 85.25px); }
-        17.55% { transform: translate(34px, 85.25px); }
-        18.4% { transform: translate(34px, 85.25px); }
-        20% { transform: translate(34px, 85.25px); }
-        21.59% { transform: translate(34px, 85.25px); }
-        23.34% { transform: translate(34px, 99.25px); }
-        24.62% { transform: translate(34px, 99.25px); }
-        25.47% { transform: translate(34px, 99.25px); }
-        27.06% { transform: translate(34px, 99.25px); }
-        28.66% { transform: translate(34px, 99.25px); }
-        30.41% { transform: translate(34px, 113.25px); }
-        31.68% { transform: translate(34px, 113.25px); }
-        32.53% { transform: translate(34px, 113.25px); }
-        34.13% { transform: translate(34px, 113.25px); }
-        35.72% { transform: translate(34px, 113.25px); }
-        37.46% { transform: translate(34px, 127.25px); }
-        38.74% { transform: translate(34px, 127.25px); }
-        39.59% { transform: translate(34px, 127.25px); }
-        41.18% { transform: translate(34px, 127.25px); }
-        42.78% { transform: translate(34px, 127.25px); }
-        44.53% { transform: translate(34px, 141.25px); }
-        45.8% { transform: translate(34px, 141.25px); }
-        46.65% { transform: translate(34px, 141.25px); }
-        48.25% { transform: translate(34px, 141.25px); }
-        49.84% { transform: translate(34px, 141.25px); }
-        51.59% { transform: translate(34px, 155.25px); }
-        54.25% { transform: translate(34px, 155.25px); }
-        56% { transform: translate(34px, 141.25px); }
-        57.28% { transform: translate(34px, 141.25px); }
-        58.13% { transform: translate(34px, 141.25px); }
-        59.72% { transform: translate(34px, 141.25px); }
-        61.32% { transform: translate(34px, 141.25px); }
-        63.06% { transform: translate(34px, 127.25px); }
-        64.81% { transform: translate(34px, 113.25px); }
-        66.09% { transform: translate(34px, 113.25px); }
-        66.94% { transform: translate(34px, 113.25px); }
-        68.53% { transform: translate(34px, 113.25px); }
-        70.12% { transform: translate(34px, 113.25px); }
-        71.88% { transform: translate(34px, 99.25px); }
-        73.62% { transform: translate(34px, 85.25px); }
-        75.37% { transform: translate(34px, 71.25px); }
-        77.13% { transform: translate(34px, 57.25px); }
-        78.4% { transform: translate(34px, 57.25px); }
-        79.25% { transform: translate(34px, 57.25px); }
-        80.85% { transform: translate(34px, 57.25px); }
-        82.44% { transform: translate(34px, 57.25px); }
-        84.6% { transform: translate(34px, 40px); }
-        87.25% { transform: translate(34px, 40px); }
+        1.56% { transform: translate(34px, 57.25px); }
+        2.47% { transform: translate(34px, 57.25px); }
+        3.09% { transform: translate(34px, 57.25px); }
+        4.24% { transform: translate(34px, 57.25px); }
+        5.39% { transform: translate(34px, 57.25px); }
+        6.65% { transform: translate(34px, 71.25px); }
+        7.57% { transform: translate(34px, 71.25px); }
+        8.18% { transform: translate(34px, 71.25px); }
+        9.33% { transform: translate(34px, 71.25px); }
+        10.48% { transform: translate(34px, 71.25px); }
+        11.74% { transform: translate(34px, 85.25px); }
+        12.65% { transform: translate(34px, 85.25px); }
+        13.27% { transform: translate(34px, 85.25px); }
+        14.42% { transform: translate(34px, 85.25px); }
+        15.57% { transform: translate(34px, 85.25px); }
+        16.83% { transform: translate(34px, 99.25px); }
+        17.75% { transform: translate(34px, 99.25px); }
+        18.36% { transform: translate(34px, 99.25px); }
+        19.51% { transform: translate(34px, 99.25px); }
+        20.66% { transform: translate(34px, 99.25px); }
+        21.92% { transform: translate(34px, 113.25px); }
+        22.84% { transform: translate(34px, 113.25px); }
+        23.46% { transform: translate(34px, 113.25px); }
+        24.6% { transform: translate(34px, 113.25px); }
+        25.75% { transform: translate(34px, 113.25px); }
+        27.01% { transform: translate(34px, 127.25px); }
+        27.93% { transform: translate(34px, 127.25px); }
+        28.54% { transform: translate(34px, 127.25px); }
+        29.69% { transform: translate(34px, 127.25px); }
+        30.84% { transform: translate(34px, 127.25px); }
+        32.1% { transform: translate(34px, 141.25px); }
+        33.02% { transform: translate(34px, 141.25px); }
+        33.64% { transform: translate(34px, 141.25px); }
+        34.79% { transform: translate(34px, 141.25px); }
+        35.93% { transform: translate(34px, 141.25px); }
+        37.2% { transform: translate(34px, 155.25px); }
+        39.11% { transform: translate(34px, 155.25px); }
+        40.38% { transform: translate(34px, 141.25px); }
+        41.3% { transform: translate(34px, 141.25px); }
+        41.91% { transform: translate(34px, 141.25px); }
+        43.06% { transform: translate(34px, 141.25px); }
+        44.21% { transform: translate(34px, 141.25px); }
+        45.46% { transform: translate(34px, 127.25px); }
+        46.73% { transform: translate(34px, 113.25px); }
+        47.65% { transform: translate(34px, 113.25px); }
+        48.26% { transform: translate(34px, 113.25px); }
+        49.41% { transform: translate(34px, 113.25px); }
+        50.56% { transform: translate(34px, 113.25px); }
+        51.82% { transform: translate(34px, 99.25px); }
+        53.08% { transform: translate(34px, 85.25px); }
+        54.34% { transform: translate(34px, 71.25px); }
+        55.61% { transform: translate(34px, 57.25px); }
+        56.53% { transform: translate(34px, 57.25px); }
+        57.14% { transform: translate(34px, 57.25px); }
+        58.29% { transform: translate(34px, 57.25px); }
+        59.44% { transform: translate(34px, 57.25px); }
+        60.99% { transform: translate(34px, 40px); }
+        62.91% { transform: translate(34px, 40px); }
+        64.46% { transform: translate(34px, 57.25px); }
+        65.38% { transform: translate(34px, 57.25px); }
+        65.99% { transform: translate(34px, 57.25px); }
+        67.14% { transform: translate(34px, 57.25px); }
+        68.29% { transform: translate(34px, 57.25px); }
+        69.55% { transform: translate(34px, 71.25px); }
+        70.81% { transform: translate(34px, 85.25px); }
+        72.08% { transform: translate(34px, 99.25px); }
+        73.34% { transform: translate(34px, 113.25px); }
+        74.6% { transform: translate(34px, 127.25px); }
+        75.86% { transform: translate(34px, 141.25px); }
+        77.12% { transform: translate(34px, 155.25px); }
+        79.04% { transform: translate(34px, 155.25px); }
+        90.81% { transform: translate(34px, 40px); }
         100% { transform: translate(34px, 40px); }
         100% { transform: translate(34px, 40px); }
       }
       .rocket-vertical-movement {
-        animation: arcadeRocketTravel 9.4s linear infinite;
+        animation: arcadeRocketTravel 13.1s linear infinite;
       }
 
       /* Rocket Recoil and Banking Tilt */
       @keyframes arcadeRocketTilt {
         0% { transform: rotate(4deg) translateX(0px); }
-        2.16% { transform: rotate(4deg) translateX(0px); }
-        3.43% { transform: rotate(0deg) translateX(0px); }
-        4.28% { transform: rotate(0deg) translateX(-1.8px); }
-        5.88% { transform: rotate(0deg) translateX(0px); }
-        7.47% { transform: rotate(4deg) translateX(0px); }
-        9.22% { transform: rotate(4deg) translateX(0px); }
-        10.5% { transform: rotate(0deg) translateX(0px); }
-        11.35% { transform: rotate(0deg) translateX(-1.8px); }
-        12.94% { transform: rotate(0deg) translateX(0px); }
-        14.53% { transform: rotate(4deg) translateX(0px); }
-        16.28% { transform: rotate(4deg) translateX(0px); }
-        17.55% { transform: rotate(0deg) translateX(0px); }
-        18.4% { transform: rotate(0deg) translateX(-1.8px); }
-        20% { transform: rotate(0deg) translateX(0px); }
-        21.59% { transform: rotate(4deg) translateX(0px); }
-        23.34% { transform: rotate(4deg) translateX(0px); }
-        24.62% { transform: rotate(0deg) translateX(0px); }
-        25.47% { transform: rotate(0deg) translateX(-1.8px); }
-        27.06% { transform: rotate(0deg) translateX(0px); }
-        28.66% { transform: rotate(4deg) translateX(0px); }
-        30.41% { transform: rotate(4deg) translateX(0px); }
-        31.68% { transform: rotate(0deg) translateX(0px); }
-        32.53% { transform: rotate(0deg) translateX(-1.8px); }
-        34.13% { transform: rotate(0deg) translateX(0px); }
-        35.72% { transform: rotate(4deg) translateX(0px); }
-        37.46% { transform: rotate(4deg) translateX(0px); }
-        38.74% { transform: rotate(0deg) translateX(0px); }
-        39.59% { transform: rotate(0deg) translateX(-1.8px); }
-        41.18% { transform: rotate(0deg) translateX(0px); }
-        42.78% { transform: rotate(4deg) translateX(0px); }
-        44.53% { transform: rotate(4deg) translateX(0px); }
-        45.8% { transform: rotate(0deg) translateX(0px); }
-        46.65% { transform: rotate(0deg) translateX(-1.8px); }
-        48.25% { transform: rotate(0deg) translateX(0px); }
-        49.84% { transform: rotate(4deg) translateX(0px); }
-        51.59% { transform: rotate(4deg) translateX(0px); }
-        54.25% { transform: rotate(-4deg) translateX(0px); }
-        56% { transform: rotate(-4deg) translateX(0px); }
-        57.28% { transform: rotate(0deg) translateX(0px); }
-        58.13% { transform: rotate(0deg) translateX(-1.8px); }
-        59.72% { transform: rotate(0deg) translateX(0px); }
-        61.32% { transform: rotate(-4deg) translateX(0px); }
-        63.06% { transform: rotate(-4deg) translateX(0px); }
-        64.81% { transform: rotate(-4deg) translateX(0px); }
-        66.09% { transform: rotate(0deg) translateX(0px); }
-        66.94% { transform: rotate(0deg) translateX(-1.8px); }
-        68.53% { transform: rotate(0deg) translateX(0px); }
-        70.12% { transform: rotate(-4deg) translateX(0px); }
-        71.88% { transform: rotate(-4deg) translateX(0px); }
-        73.62% { transform: rotate(-4deg) translateX(0px); }
-        75.37% { transform: rotate(-4deg) translateX(0px); }
-        77.13% { transform: rotate(-4deg) translateX(0px); }
-        78.4% { transform: rotate(0deg) translateX(0px); }
-        79.25% { transform: rotate(0deg) translateX(-1.8px); }
-        80.85% { transform: rotate(0deg) translateX(0px); }
-        82.44% { transform: rotate(-4deg) translateX(0px); }
-        84.6% { transform: rotate(-4deg) translateX(0px); }
-        87.25% { transform: rotate(4deg) translateX(0px); }
+        1.56% { transform: rotate(4deg) translateX(0px); }
+        2.47% { transform: rotate(0deg) translateX(0px); }
+        3.09% { transform: rotate(0deg) translateX(-1.8px); }
+        4.24% { transform: rotate(0deg) translateX(0px); }
+        5.39% { transform: rotate(4deg) translateX(0px); }
+        6.65% { transform: rotate(4deg) translateX(0px); }
+        7.57% { transform: rotate(0deg) translateX(0px); }
+        8.18% { transform: rotate(0deg) translateX(-1.8px); }
+        9.33% { transform: rotate(0deg) translateX(0px); }
+        10.48% { transform: rotate(4deg) translateX(0px); }
+        11.74% { transform: rotate(4deg) translateX(0px); }
+        12.65% { transform: rotate(0deg) translateX(0px); }
+        13.27% { transform: rotate(0deg) translateX(-1.8px); }
+        14.42% { transform: rotate(0deg) translateX(0px); }
+        15.57% { transform: rotate(4deg) translateX(0px); }
+        16.83% { transform: rotate(4deg) translateX(0px); }
+        17.75% { transform: rotate(0deg) translateX(0px); }
+        18.36% { transform: rotate(0deg) translateX(-1.8px); }
+        19.51% { transform: rotate(0deg) translateX(0px); }
+        20.66% { transform: rotate(4deg) translateX(0px); }
+        21.92% { transform: rotate(4deg) translateX(0px); }
+        22.84% { transform: rotate(0deg) translateX(0px); }
+        23.46% { transform: rotate(0deg) translateX(-1.8px); }
+        24.6% { transform: rotate(0deg) translateX(0px); }
+        25.75% { transform: rotate(4deg) translateX(0px); }
+        27.01% { transform: rotate(4deg) translateX(0px); }
+        27.93% { transform: rotate(0deg) translateX(0px); }
+        28.54% { transform: rotate(0deg) translateX(-1.8px); }
+        29.69% { transform: rotate(0deg) translateX(0px); }
+        30.84% { transform: rotate(4deg) translateX(0px); }
+        32.1% { transform: rotate(4deg) translateX(0px); }
+        33.02% { transform: rotate(0deg) translateX(0px); }
+        33.64% { transform: rotate(0deg) translateX(-1.8px); }
+        34.79% { transform: rotate(0deg) translateX(0px); }
+        35.93% { transform: rotate(4deg) translateX(0px); }
+        37.2% { transform: rotate(4deg) translateX(0px); }
+        39.11% { transform: rotate(-4deg) translateX(0px); }
+        40.38% { transform: rotate(-4deg) translateX(0px); }
+        41.3% { transform: rotate(0deg) translateX(0px); }
+        41.91% { transform: rotate(0deg) translateX(-1.8px); }
+        43.06% { transform: rotate(0deg) translateX(0px); }
+        44.21% { transform: rotate(-4deg) translateX(0px); }
+        45.46% { transform: rotate(-4deg) translateX(0px); }
+        46.73% { transform: rotate(-4deg) translateX(0px); }
+        47.65% { transform: rotate(0deg) translateX(0px); }
+        48.26% { transform: rotate(0deg) translateX(-1.8px); }
+        49.41% { transform: rotate(0deg) translateX(0px); }
+        50.56% { transform: rotate(-4deg) translateX(0px); }
+        51.82% { transform: rotate(-4deg) translateX(0px); }
+        53.08% { transform: rotate(-4deg) translateX(0px); }
+        54.34% { transform: rotate(-4deg) translateX(0px); }
+        55.61% { transform: rotate(-4deg) translateX(0px); }
+        56.53% { transform: rotate(0deg) translateX(0px); }
+        57.14% { transform: rotate(0deg) translateX(-1.8px); }
+        58.29% { transform: rotate(0deg) translateX(0px); }
+        59.44% { transform: rotate(-4deg) translateX(0px); }
+        60.99% { transform: rotate(-4deg) translateX(0px); }
+        62.91% { transform: rotate(4deg) translateX(0px); }
+        64.46% { transform: rotate(4deg) translateX(0px); }
+        65.38% { transform: rotate(0deg) translateX(0px); }
+        65.99% { transform: rotate(0deg) translateX(-1.8px); }
+        67.14% { transform: rotate(0deg) translateX(0px); }
+        68.29% { transform: rotate(4deg) translateX(0px); }
+        69.55% { transform: rotate(4deg) translateX(0px); }
+        70.81% { transform: rotate(4deg) translateX(0px); }
+        72.08% { transform: rotate(4deg) translateX(0px); }
+        73.34% { transform: rotate(4deg) translateX(0px); }
+        74.6% { transform: rotate(4deg) translateX(0px); }
+        75.86% { transform: rotate(4deg) translateX(0px); }
+        77.12% { transform: rotate(4deg) translateX(0px); }
+        79.04% { transform: rotate(-4deg) translateX(0px); }
+        90.81% { transform: rotate(-4deg) translateX(0px); }
         100% { transform: rotate(4deg) translateX(0px); }
         100% { transform: rotate(4deg) translateX(0); }
       }
       .rocket-recoil-tilt {
-        animation: arcadeRocketTilt 9.4s linear infinite;
+        animation: arcadeRocketTilt 13.1s linear infinite;
         transform-origin: center;
         transform-box: fill-box;
       }
@@ -181,474 +209,528 @@
       /* Rocket Engine Firing Reaction Flame */
       @keyframes arcadeFlamePulse {
         0% { transform: scale(1); filter: none; }
-        2.16% { transform: scale(1); filter: none; }
-        3.43% { transform: scale(1); filter: none; }
-        4.28% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        5.88% { transform: scale(1); filter: none; }
-        7.47% { transform: scale(1); filter: none; }
-        9.22% { transform: scale(1); filter: none; }
-        10.5% { transform: scale(1); filter: none; }
-        11.35% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        12.94% { transform: scale(1); filter: none; }
-        14.53% { transform: scale(1); filter: none; }
-        16.28% { transform: scale(1); filter: none; }
-        17.55% { transform: scale(1); filter: none; }
-        18.4% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        20% { transform: scale(1); filter: none; }
-        21.59% { transform: scale(1); filter: none; }
-        23.34% { transform: scale(1); filter: none; }
-        24.62% { transform: scale(1); filter: none; }
-        25.47% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        27.06% { transform: scale(1); filter: none; }
-        28.66% { transform: scale(1); filter: none; }
-        30.41% { transform: scale(1); filter: none; }
-        31.68% { transform: scale(1); filter: none; }
-        32.53% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        34.13% { transform: scale(1); filter: none; }
-        35.72% { transform: scale(1); filter: none; }
-        37.46% { transform: scale(1); filter: none; }
-        38.74% { transform: scale(1); filter: none; }
-        39.59% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        41.18% { transform: scale(1); filter: none; }
-        42.78% { transform: scale(1); filter: none; }
-        44.53% { transform: scale(1); filter: none; }
-        45.8% { transform: scale(1); filter: none; }
-        46.65% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        48.25% { transform: scale(1); filter: none; }
-        49.84% { transform: scale(1); filter: none; }
-        51.59% { transform: scale(1); filter: none; }
-        54.25% { transform: scale(1); filter: none; }
-        56% { transform: scale(1); filter: none; }
-        57.28% { transform: scale(1); filter: none; }
-        58.13% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        59.72% { transform: scale(1); filter: none; }
-        61.32% { transform: scale(1); filter: none; }
-        63.06% { transform: scale(1); filter: none; }
-        64.81% { transform: scale(1); filter: none; }
-        66.09% { transform: scale(1); filter: none; }
-        66.94% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        68.53% { transform: scale(1); filter: none; }
-        70.12% { transform: scale(1); filter: none; }
-        71.88% { transform: scale(1); filter: none; }
-        73.62% { transform: scale(1); filter: none; }
-        75.37% { transform: scale(1); filter: none; }
-        77.13% { transform: scale(1); filter: none; }
-        78.4% { transform: scale(1); filter: none; }
-        79.25% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
-        80.85% { transform: scale(1); filter: none; }
-        82.44% { transform: scale(1); filter: none; }
-        84.6% { transform: scale(1); filter: none; }
-        87.25% { transform: scale(1); filter: none; }
+        1.56% { transform: scale(1); filter: none; }
+        2.47% { transform: scale(1); filter: none; }
+        3.09% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        4.24% { transform: scale(1); filter: none; }
+        5.39% { transform: scale(1); filter: none; }
+        6.65% { transform: scale(1); filter: none; }
+        7.57% { transform: scale(1); filter: none; }
+        8.18% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        9.33% { transform: scale(1); filter: none; }
+        10.48% { transform: scale(1); filter: none; }
+        11.74% { transform: scale(1); filter: none; }
+        12.65% { transform: scale(1); filter: none; }
+        13.27% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        14.42% { transform: scale(1); filter: none; }
+        15.57% { transform: scale(1); filter: none; }
+        16.83% { transform: scale(1); filter: none; }
+        17.75% { transform: scale(1); filter: none; }
+        18.36% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        19.51% { transform: scale(1); filter: none; }
+        20.66% { transform: scale(1); filter: none; }
+        21.92% { transform: scale(1); filter: none; }
+        22.84% { transform: scale(1); filter: none; }
+        23.46% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        24.6% { transform: scale(1); filter: none; }
+        25.75% { transform: scale(1); filter: none; }
+        27.01% { transform: scale(1); filter: none; }
+        27.93% { transform: scale(1); filter: none; }
+        28.54% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        29.69% { transform: scale(1); filter: none; }
+        30.84% { transform: scale(1); filter: none; }
+        32.1% { transform: scale(1); filter: none; }
+        33.02% { transform: scale(1); filter: none; }
+        33.64% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        34.79% { transform: scale(1); filter: none; }
+        35.93% { transform: scale(1); filter: none; }
+        37.2% { transform: scale(1); filter: none; }
+        39.11% { transform: scale(1); filter: none; }
+        40.38% { transform: scale(1); filter: none; }
+        41.3% { transform: scale(1); filter: none; }
+        41.91% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        43.06% { transform: scale(1); filter: none; }
+        44.21% { transform: scale(1); filter: none; }
+        45.46% { transform: scale(1); filter: none; }
+        46.73% { transform: scale(1); filter: none; }
+        47.65% { transform: scale(1); filter: none; }
+        48.26% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        49.41% { transform: scale(1); filter: none; }
+        50.56% { transform: scale(1); filter: none; }
+        51.82% { transform: scale(1); filter: none; }
+        53.08% { transform: scale(1); filter: none; }
+        54.34% { transform: scale(1); filter: none; }
+        55.61% { transform: scale(1); filter: none; }
+        56.53% { transform: scale(1); filter: none; }
+        57.14% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        58.29% { transform: scale(1); filter: none; }
+        59.44% { transform: scale(1); filter: none; }
+        60.99% { transform: scale(1); filter: none; }
+        62.91% { transform: scale(1); filter: none; }
+        64.46% { transform: scale(1); filter: none; }
+        65.38% { transform: scale(1); filter: none; }
+        65.99% { transform: scale(1.45); filter: drop-shadow(0 0 3px #ff7597); }
+        67.14% { transform: scale(1); filter: none; }
+        68.29% { transform: scale(1); filter: none; }
+        69.55% { transform: scale(1); filter: none; }
+        70.81% { transform: scale(1); filter: none; }
+        72.08% { transform: scale(1); filter: none; }
+        73.34% { transform: scale(1); filter: none; }
+        74.6% { transform: scale(1); filter: none; }
+        75.86% { transform: scale(1); filter: none; }
+        77.12% { transform: scale(1); filter: none; }
+        79.04% { transform: scale(1); filter: none; }
+        90.81% { transform: scale(1); filter: none; }
         100% { transform: scale(1); filter: none; }
         100% { transform: scale(1); filter: none; }
       }
       .rocket-firing-flame {
-        animation: arcadeFlamePulse 9.4s linear infinite;
+        animation: arcadeFlamePulse 13.1s linear infinite;
         transform-origin: left center;
         transform-box: fill-box;
       }
 
       /* Projectiles Travelling Across Graph from Left Turret to Target Stones */
       
-      @keyframes projectileFly_s_48_0 {
-        0%, 3.33% { opacity: 0; transform: translate(43.5px, 57.25px); }
-        3.43% { opacity: 1; transform: translate(43.5px, 57.25px); }
-        5.34% { opacity: 1; transform: translate(725.25px, 57.25px); }
-        5.44%, 100% { opacity: 0; transform: translate(725.25px, 57.25px); }
+      @keyframes projectileFly_s_47_0 {
+        0%, 2.37% { opacity: 0; transform: translate(43.5px, 57.25px); }
+        2.47% { opacity: 1; transform: translate(43.5px, 57.25px); }
+        3.85% { opacity: 1; transform: translate(711.25px, 57.25px); }
+        3.95%, 100% { opacity: 0; transform: translate(711.25px, 57.25px); }
       }
-      .arcade-projectile-s_48_0 {
+      .arcade-projectile-s_47_0 {
         opacity: 0;
-        animation: projectileFly_s_48_0 9.4s linear infinite;
+        animation: projectileFly_s_47_0 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_1 {
-        0%, 10.40% { opacity: 0; transform: translate(43.5px, 71.25px); }
-        10.5% { opacity: 1; transform: translate(43.5px, 71.25px); }
-        12.41% { opacity: 1; transform: translate(781.25px, 71.25px); }
-        12.51%, 100% { opacity: 0; transform: translate(781.25px, 71.25px); }
+      @keyframes projectileFly_s_51_1 {
+        0%, 7.47% { opacity: 0; transform: translate(43.5px, 71.25px); }
+        7.57% { opacity: 1; transform: translate(43.5px, 71.25px); }
+        8.95% { opacity: 1; transform: translate(767.25px, 71.25px); }
+        9.05%, 100% { opacity: 0; transform: translate(767.25px, 71.25px); }
       }
-      .arcade-projectile-s_52_1 {
+      .arcade-projectile-s_51_1 {
         opacity: 0;
-        animation: projectileFly_s_52_1 9.4s linear infinite;
+        animation: projectileFly_s_51_1 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_2 {
-        0%, 17.45% { opacity: 0; transform: translate(43.5px, 85.25px); }
-        17.55% { opacity: 1; transform: translate(43.5px, 85.25px); }
-        19.46% { opacity: 1; transform: translate(781.25px, 85.25px); }
-        19.56%, 100% { opacity: 0; transform: translate(781.25px, 85.25px); }
+      @keyframes projectileFly_s_51_2 {
+        0%, 12.55% { opacity: 0; transform: translate(43.5px, 85.25px); }
+        12.65% { opacity: 1; transform: translate(43.5px, 85.25px); }
+        14.03% { opacity: 1; transform: translate(767.25px, 85.25px); }
+        14.13%, 100% { opacity: 0; transform: translate(767.25px, 85.25px); }
       }
-      .arcade-projectile-s_52_2 {
+      .arcade-projectile-s_51_2 {
         opacity: 0;
-        animation: projectileFly_s_52_2 9.4s linear infinite;
+        animation: projectileFly_s_51_2 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_3 {
-        0%, 24.52% { opacity: 0; transform: translate(43.5px, 99.25px); }
-        24.62% { opacity: 1; transform: translate(43.5px, 99.25px); }
-        26.53% { opacity: 1; transform: translate(781.25px, 99.25px); }
-        26.63%, 100% { opacity: 0; transform: translate(781.25px, 99.25px); }
+      @keyframes projectileFly_s_51_3 {
+        0%, 17.65% { opacity: 0; transform: translate(43.5px, 99.25px); }
+        17.75% { opacity: 1; transform: translate(43.5px, 99.25px); }
+        19.13% { opacity: 1; transform: translate(767.25px, 99.25px); }
+        19.23%, 100% { opacity: 0; transform: translate(767.25px, 99.25px); }
       }
-      .arcade-projectile-s_52_3 {
+      .arcade-projectile-s_51_3 {
         opacity: 0;
-        animation: projectileFly_s_52_3 9.4s linear infinite;
+        animation: projectileFly_s_51_3 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_50_4 {
-        0%, 31.58% { opacity: 0; transform: translate(43.5px, 113.25px); }
-        31.68% { opacity: 1; transform: translate(43.5px, 113.25px); }
-        33.6% { opacity: 1; transform: translate(753.25px, 113.25px); }
-        33.70%, 100% { opacity: 0; transform: translate(753.25px, 113.25px); }
+      @keyframes projectileFly_s_49_4 {
+        0%, 22.74% { opacity: 0; transform: translate(43.5px, 113.25px); }
+        22.84% { opacity: 1; transform: translate(43.5px, 113.25px); }
+        24.22% { opacity: 1; transform: translate(739.25px, 113.25px); }
+        24.32%, 100% { opacity: 0; transform: translate(739.25px, 113.25px); }
       }
-      .arcade-projectile-s_50_4 {
+      .arcade-projectile-s_49_4 {
         opacity: 0;
-        animation: projectileFly_s_50_4 9.4s linear infinite;
+        animation: projectileFly_s_49_4 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_5 {
-        0%, 38.64% { opacity: 0; transform: translate(43.5px, 127.25px); }
-        38.74% { opacity: 1; transform: translate(43.5px, 127.25px); }
-        40.65% { opacity: 1; transform: translate(781.25px, 127.25px); }
-        40.75%, 100% { opacity: 0; transform: translate(781.25px, 127.25px); }
+      @keyframes projectileFly_s_51_5 {
+        0%, 27.83% { opacity: 0; transform: translate(43.5px, 127.25px); }
+        27.93% { opacity: 1; transform: translate(43.5px, 127.25px); }
+        29.31% { opacity: 1; transform: translate(767.25px, 127.25px); }
+        29.41%, 100% { opacity: 0; transform: translate(767.25px, 127.25px); }
       }
-      .arcade-projectile-s_52_5 {
+      .arcade-projectile-s_51_5 {
         opacity: 0;
-        animation: projectileFly_s_52_5 9.4s linear infinite;
+        animation: projectileFly_s_51_5 13.1s linear infinite;
+      }
+    
+
+      @keyframes projectileFly_s_50_6 {
+        0%, 32.92% { opacity: 0; transform: translate(43.5px, 141.25px); }
+        33.02% { opacity: 1; transform: translate(43.5px, 141.25px); }
+        34.4% { opacity: 1; transform: translate(753.25px, 141.25px); }
+        34.50%, 100% { opacity: 0; transform: translate(753.25px, 141.25px); }
+      }
+      .arcade-projectile-s_50_6 {
+        opacity: 0;
+        animation: projectileFly_s_50_6 13.1s linear infinite;
       }
     
 
       @keyframes projectileFly_s_51_6 {
-        0%, 45.70% { opacity: 0; transform: translate(43.5px, 141.25px); }
-        45.8% { opacity: 1; transform: translate(43.5px, 141.25px); }
-        47.72% { opacity: 1; transform: translate(767.25px, 141.25px); }
-        47.82%, 100% { opacity: 0; transform: translate(767.25px, 141.25px); }
+        0%, 41.20% { opacity: 0; transform: translate(43.5px, 141.25px); }
+        41.3% { opacity: 1; transform: translate(43.5px, 141.25px); }
+        42.68% { opacity: 1; transform: translate(767.25px, 141.25px); }
+        42.78%, 100% { opacity: 0; transform: translate(767.25px, 141.25px); }
       }
       .arcade-projectile-s_51_6 {
         opacity: 0;
-        animation: projectileFly_s_51_6 9.4s linear infinite;
+        animation: projectileFly_s_51_6 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_6 {
-        0%, 57.18% { opacity: 0; transform: translate(43.5px, 141.25px); }
-        57.28% { opacity: 1; transform: translate(43.5px, 141.25px); }
-        59.19% { opacity: 1; transform: translate(781.25px, 141.25px); }
-        59.29%, 100% { opacity: 0; transform: translate(781.25px, 141.25px); }
+      @keyframes projectileFly_s_51_4 {
+        0%, 47.55% { opacity: 0; transform: translate(43.5px, 113.25px); }
+        47.65% { opacity: 1; transform: translate(43.5px, 113.25px); }
+        49.03% { opacity: 1; transform: translate(767.25px, 113.25px); }
+        49.13%, 100% { opacity: 0; transform: translate(767.25px, 113.25px); }
       }
-      .arcade-projectile-s_52_6 {
+      .arcade-projectile-s_51_4 {
         opacity: 0;
-        animation: projectileFly_s_52_6 9.4s linear infinite;
+        animation: projectileFly_s_51_4 13.1s linear infinite;
       }
     
 
-      @keyframes projectileFly_s_52_4 {
-        0%, 65.99% { opacity: 0; transform: translate(43.5px, 113.25px); }
-        66.09% { opacity: 1; transform: translate(43.5px, 113.25px); }
-        68% { opacity: 1; transform: translate(781.25px, 113.25px); }
-        68.10%, 100% { opacity: 0; transform: translate(781.25px, 113.25px); }
+      @keyframes projectileFly_s_51_0 {
+        0%, 56.43% { opacity: 0; transform: translate(43.5px, 57.25px); }
+        56.53% { opacity: 1; transform: translate(43.5px, 57.25px); }
+        57.9% { opacity: 1; transform: translate(767.25px, 57.25px); }
+        58.00%, 100% { opacity: 0; transform: translate(767.25px, 57.25px); }
       }
-      .arcade-projectile-s_52_4 {
+      .arcade-projectile-s_51_0 {
         opacity: 0;
-        animation: projectileFly_s_52_4 9.4s linear infinite;
+        animation: projectileFly_s_51_0 13.1s linear infinite;
       }
     
 
       @keyframes projectileFly_s_52_0 {
-        0%, 78.30% { opacity: 0; transform: translate(43.5px, 57.25px); }
-        78.4% { opacity: 1; transform: translate(43.5px, 57.25px); }
-        80.31% { opacity: 1; transform: translate(781.25px, 57.25px); }
-        80.41%, 100% { opacity: 0; transform: translate(781.25px, 57.25px); }
+        0%, 65.28% { opacity: 0; transform: translate(43.5px, 57.25px); }
+        65.38% { opacity: 1; transform: translate(43.5px, 57.25px); }
+        66.76% { opacity: 1; transform: translate(781.25px, 57.25px); }
+        66.86%, 100% { opacity: 0; transform: translate(781.25px, 57.25px); }
       }
       .arcade-projectile-s_52_0 {
         opacity: 0;
-        animation: projectileFly_s_52_0 9.4s linear infinite;
+        animation: projectileFly_s_52_0 13.1s linear infinite;
       }
     
 
       /* Impact Bursts at Target Stone Coordinates */
       
-      @keyframes impactBurst_s_48_0 {
-        0%, 5.24% { opacity: 0; transform: scale(0.2); }
-        5.34% { opacity: 1; transform: scale(0.9); }
-        6.54% { opacity: 0.95; transform: scale(1.35); }
-        7.84%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_47_0 {
+        0%, 3.75% { opacity: 0; transform: scale(0.2); }
+        3.85% { opacity: 1; transform: scale(0.9); }
+        5.05% { opacity: 0.95; transform: scale(1.35); }
+        6.35%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_48_0 {
+      .impact-burst-s_47_0 {
         opacity: 0;
-        animation: impactBurst_s_48_0 9.4s linear infinite;
+        animation: impactBurst_s_47_0 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_1 {
-        0%, 12.31% { opacity: 0; transform: scale(0.2); }
-        12.41% { opacity: 1; transform: scale(0.9); }
-        13.61% { opacity: 0.95; transform: scale(1.35); }
-        14.91%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_1 {
+        0%, 8.85% { opacity: 0; transform: scale(0.2); }
+        8.95% { opacity: 1; transform: scale(0.9); }
+        10.15% { opacity: 0.95; transform: scale(1.35); }
+        11.45%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_1 {
+      .impact-burst-s_51_1 {
         opacity: 0;
-        animation: impactBurst_s_52_1 9.4s linear infinite;
+        animation: impactBurst_s_51_1 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_2 {
-        0%, 19.36% { opacity: 0; transform: scale(0.2); }
-        19.46% { opacity: 1; transform: scale(0.9); }
-        20.66% { opacity: 0.95; transform: scale(1.35); }
-        21.96%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_2 {
+        0%, 13.93% { opacity: 0; transform: scale(0.2); }
+        14.03% { opacity: 1; transform: scale(0.9); }
+        15.23% { opacity: 0.95; transform: scale(1.35); }
+        16.53%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_2 {
+      .impact-burst-s_51_2 {
         opacity: 0;
-        animation: impactBurst_s_52_2 9.4s linear infinite;
+        animation: impactBurst_s_51_2 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_3 {
-        0%, 26.43% { opacity: 0; transform: scale(0.2); }
-        26.53% { opacity: 1; transform: scale(0.9); }
-        27.73% { opacity: 0.95; transform: scale(1.35); }
-        29.03%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_3 {
+        0%, 19.03% { opacity: 0; transform: scale(0.2); }
+        19.13% { opacity: 1; transform: scale(0.9); }
+        20.33% { opacity: 0.95; transform: scale(1.35); }
+        21.63%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_3 {
+      .impact-burst-s_51_3 {
         opacity: 0;
-        animation: impactBurst_s_52_3 9.4s linear infinite;
+        animation: impactBurst_s_51_3 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_50_4 {
-        0%, 33.50% { opacity: 0; transform: scale(0.2); }
-        33.6% { opacity: 1; transform: scale(0.9); }
-        34.80% { opacity: 0.95; transform: scale(1.35); }
-        36.10%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_49_4 {
+        0%, 24.12% { opacity: 0; transform: scale(0.2); }
+        24.22% { opacity: 1; transform: scale(0.9); }
+        25.42% { opacity: 0.95; transform: scale(1.35); }
+        26.72%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_50_4 {
+      .impact-burst-s_49_4 {
         opacity: 0;
-        animation: impactBurst_s_50_4 9.4s linear infinite;
+        animation: impactBurst_s_49_4 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_5 {
-        0%, 40.55% { opacity: 0; transform: scale(0.2); }
-        40.65% { opacity: 1; transform: scale(0.9); }
-        41.85% { opacity: 0.95; transform: scale(1.35); }
-        43.15%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_5 {
+        0%, 29.21% { opacity: 0; transform: scale(0.2); }
+        29.31% { opacity: 1; transform: scale(0.9); }
+        30.51% { opacity: 0.95; transform: scale(1.35); }
+        31.81%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_5 {
+      .impact-burst-s_51_5 {
         opacity: 0;
-        animation: impactBurst_s_52_5 9.4s linear infinite;
+        animation: impactBurst_s_51_5 13.1s linear infinite;
+        transform-origin: 0px 0px;
+      }
+    
+
+      @keyframes impactBurst_s_50_6 {
+        0%, 34.30% { opacity: 0; transform: scale(0.2); }
+        34.4% { opacity: 1; transform: scale(0.9); }
+        35.60% { opacity: 0.95; transform: scale(1.35); }
+        36.90%, 100% { opacity: 0; transform: scale(1.7); }
+      }
+      .impact-burst-s_50_6 {
+        opacity: 0;
+        animation: impactBurst_s_50_6 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
       @keyframes impactBurst_s_51_6 {
-        0%, 47.62% { opacity: 0; transform: scale(0.2); }
-        47.72% { opacity: 1; transform: scale(0.9); }
-        48.92% { opacity: 0.95; transform: scale(1.35); }
-        50.22%, 100% { opacity: 0; transform: scale(1.7); }
+        0%, 42.58% { opacity: 0; transform: scale(0.2); }
+        42.68% { opacity: 1; transform: scale(0.9); }
+        43.88% { opacity: 0.95; transform: scale(1.35); }
+        45.18%, 100% { opacity: 0; transform: scale(1.7); }
       }
       .impact-burst-s_51_6 {
         opacity: 0;
-        animation: impactBurst_s_51_6 9.4s linear infinite;
+        animation: impactBurst_s_51_6 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_6 {
-        0%, 59.09% { opacity: 0; transform: scale(0.2); }
-        59.19% { opacity: 1; transform: scale(0.9); }
-        60.39% { opacity: 0.95; transform: scale(1.35); }
-        61.69%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_4 {
+        0%, 48.93% { opacity: 0; transform: scale(0.2); }
+        49.03% { opacity: 1; transform: scale(0.9); }
+        50.23% { opacity: 0.95; transform: scale(1.35); }
+        51.53%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_6 {
+      .impact-burst-s_51_4 {
         opacity: 0;
-        animation: impactBurst_s_52_6 9.4s linear infinite;
+        animation: impactBurst_s_51_4 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
-      @keyframes impactBurst_s_52_4 {
-        0%, 67.90% { opacity: 0; transform: scale(0.2); }
-        68% { opacity: 1; transform: scale(0.9); }
-        69.20% { opacity: 0.95; transform: scale(1.35); }
-        70.50%, 100% { opacity: 0; transform: scale(1.7); }
+      @keyframes impactBurst_s_51_0 {
+        0%, 57.80% { opacity: 0; transform: scale(0.2); }
+        57.9% { opacity: 1; transform: scale(0.9); }
+        59.10% { opacity: 0.95; transform: scale(1.35); }
+        60.40%, 100% { opacity: 0; transform: scale(1.7); }
       }
-      .impact-burst-s_52_4 {
+      .impact-burst-s_51_0 {
         opacity: 0;
-        animation: impactBurst_s_52_4 9.4s linear infinite;
+        animation: impactBurst_s_51_0 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
       @keyframes impactBurst_s_52_0 {
-        0%, 80.21% { opacity: 0; transform: scale(0.2); }
-        80.31% { opacity: 1; transform: scale(0.9); }
-        81.51% { opacity: 0.95; transform: scale(1.35); }
-        82.81%, 100% { opacity: 0; transform: scale(1.7); }
+        0%, 66.66% { opacity: 0; transform: scale(0.2); }
+        66.76% { opacity: 1; transform: scale(0.9); }
+        67.96% { opacity: 0.95; transform: scale(1.35); }
+        69.26%, 100% { opacity: 0; transform: scale(1.7); }
       }
       .impact-burst-s_52_0 {
         opacity: 0;
-        animation: impactBurst_s_52_0 9.4s linear infinite;
+        animation: impactBurst_s_52_0 13.1s linear infinite;
         transform-origin: 0px 0px;
       }
     
 
       /* Stone Destruction (Stays Destroyed Until Next Cycle) */
       
-      @keyframes stoneDestroy_s_48_0 {
-        0%, 5.29% { opacity: 1; transform: scale(1); visibility: visible; }
-        5.34% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        6.34% { opacity: 0.7; transform: scale(0.6); }
-        7.14% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_47_0 {
+        0%, 3.80% { opacity: 1; transform: scale(1); visibility: visible; }
+        3.85% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        4.85% { opacity: 0.7; transform: scale(0.6); }
+        5.65% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_48_0 {
-        animation: stoneDestroy_s_48_0 9.4s linear infinite;
-        transform-origin: 725.25px 57.25px;
+      .arcade-stone-s_47_0 {
+        animation: stoneDestroy_s_47_0 13.1s linear infinite;
+        transform-origin: 711.25px 57.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_1 {
-        0%, 12.36% { opacity: 1; transform: scale(1); visibility: visible; }
-        12.41% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        13.41% { opacity: 0.7; transform: scale(0.6); }
-        14.21% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_1 {
+        0%, 8.90% { opacity: 1; transform: scale(1); visibility: visible; }
+        8.95% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        9.95% { opacity: 0.7; transform: scale(0.6); }
+        10.75% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_1 {
-        animation: stoneDestroy_s_52_1 9.4s linear infinite;
-        transform-origin: 781.25px 71.25px;
+      .arcade-stone-s_51_1 {
+        animation: stoneDestroy_s_51_1 13.1s linear infinite;
+        transform-origin: 767.25px 71.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_2 {
-        0%, 19.41% { opacity: 1; transform: scale(1); visibility: visible; }
-        19.46% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        20.46% { opacity: 0.7; transform: scale(0.6); }
-        21.26% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_2 {
+        0%, 13.98% { opacity: 1; transform: scale(1); visibility: visible; }
+        14.03% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        15.03% { opacity: 0.7; transform: scale(0.6); }
+        15.83% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_2 {
-        animation: stoneDestroy_s_52_2 9.4s linear infinite;
-        transform-origin: 781.25px 85.25px;
+      .arcade-stone-s_51_2 {
+        animation: stoneDestroy_s_51_2 13.1s linear infinite;
+        transform-origin: 767.25px 85.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_3 {
-        0%, 26.48% { opacity: 1; transform: scale(1); visibility: visible; }
-        26.53% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        27.53% { opacity: 0.7; transform: scale(0.6); }
-        28.33% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_3 {
+        0%, 19.08% { opacity: 1; transform: scale(1); visibility: visible; }
+        19.13% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        20.13% { opacity: 0.7; transform: scale(0.6); }
+        20.93% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_3 {
-        animation: stoneDestroy_s_52_3 9.4s linear infinite;
-        transform-origin: 781.25px 99.25px;
+      .arcade-stone-s_51_3 {
+        animation: stoneDestroy_s_51_3 13.1s linear infinite;
+        transform-origin: 767.25px 99.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_50_4 {
-        0%, 33.55% { opacity: 1; transform: scale(1); visibility: visible; }
-        33.6% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        34.60% { opacity: 0.7; transform: scale(0.6); }
-        35.40% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_49_4 {
+        0%, 24.17% { opacity: 1; transform: scale(1); visibility: visible; }
+        24.22% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        25.22% { opacity: 0.7; transform: scale(0.6); }
+        26.02% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_50_4 {
-        animation: stoneDestroy_s_50_4 9.4s linear infinite;
-        transform-origin: 753.25px 113.25px;
+      .arcade-stone-s_49_4 {
+        animation: stoneDestroy_s_49_4 13.1s linear infinite;
+        transform-origin: 739.25px 113.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_5 {
-        0%, 40.60% { opacity: 1; transform: scale(1); visibility: visible; }
-        40.65% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        41.65% { opacity: 0.7; transform: scale(0.6); }
-        42.45% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_5 {
+        0%, 29.26% { opacity: 1; transform: scale(1); visibility: visible; }
+        29.31% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        30.31% { opacity: 0.7; transform: scale(0.6); }
+        31.11% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_5 {
-        animation: stoneDestroy_s_52_5 9.4s linear infinite;
-        transform-origin: 781.25px 127.25px;
+      .arcade-stone-s_51_5 {
+        animation: stoneDestroy_s_51_5 13.1s linear infinite;
+        transform-origin: 767.25px 127.25px;
+        transform-box: view-box;
+      }
+    
+
+      @keyframes stoneDestroy_s_50_6 {
+        0%, 34.35% { opacity: 1; transform: scale(1); visibility: visible; }
+        34.4% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        35.40% { opacity: 0.7; transform: scale(0.6); }
+        36.20% { opacity: 0; transform: scale(0); visibility: hidden; }
+        98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
+        100% { opacity: 1; transform: scale(1); visibility: visible; }
+      }
+      .arcade-stone-s_50_6 {
+        animation: stoneDestroy_s_50_6 13.1s linear infinite;
+        transform-origin: 753.25px 141.25px;
         transform-box: view-box;
       }
     
 
       @keyframes stoneDestroy_s_51_6 {
-        0%, 47.67% { opacity: 1; transform: scale(1); visibility: visible; }
-        47.72% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        48.72% { opacity: 0.7; transform: scale(0.6); }
-        49.52% { opacity: 0; transform: scale(0); visibility: hidden; }
+        0%, 42.63% { opacity: 1; transform: scale(1); visibility: visible; }
+        42.68% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        43.68% { opacity: 0.7; transform: scale(0.6); }
+        44.48% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
       .arcade-stone-s_51_6 {
-        animation: stoneDestroy_s_51_6 9.4s linear infinite;
+        animation: stoneDestroy_s_51_6 13.1s linear infinite;
         transform-origin: 767.25px 141.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_6 {
-        0%, 59.14% { opacity: 1; transform: scale(1); visibility: visible; }
-        59.19% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        60.19% { opacity: 0.7; transform: scale(0.6); }
-        60.99% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_4 {
+        0%, 48.98% { opacity: 1; transform: scale(1); visibility: visible; }
+        49.03% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        50.03% { opacity: 0.7; transform: scale(0.6); }
+        50.83% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_6 {
-        animation: stoneDestroy_s_52_6 9.4s linear infinite;
-        transform-origin: 781.25px 141.25px;
+      .arcade-stone-s_51_4 {
+        animation: stoneDestroy_s_51_4 13.1s linear infinite;
+        transform-origin: 767.25px 113.25px;
         transform-box: view-box;
       }
     
 
-      @keyframes stoneDestroy_s_52_4 {
-        0%, 67.95% { opacity: 1; transform: scale(1); visibility: visible; }
-        68% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        69.00% { opacity: 0.7; transform: scale(0.6); }
-        69.80% { opacity: 0; transform: scale(0); visibility: hidden; }
+      @keyframes stoneDestroy_s_51_0 {
+        0%, 57.85% { opacity: 1; transform: scale(1); visibility: visible; }
+        57.9% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        58.90% { opacity: 0.7; transform: scale(0.6); }
+        59.70% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
-      .arcade-stone-s_52_4 {
-        animation: stoneDestroy_s_52_4 9.4s linear infinite;
-        transform-origin: 781.25px 113.25px;
+      .arcade-stone-s_51_0 {
+        animation: stoneDestroy_s_51_0 13.1s linear infinite;
+        transform-origin: 767.25px 57.25px;
         transform-box: view-box;
       }
     
 
       @keyframes stoneDestroy_s_52_0 {
-        0%, 80.26% { opacity: 1; transform: scale(1); visibility: visible; }
-        80.31% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
-        81.31% { opacity: 0.7; transform: scale(0.6); }
-        82.11% { opacity: 0; transform: scale(0); visibility: hidden; }
+        0%, 66.71% { opacity: 1; transform: scale(1); visibility: visible; }
+        66.76% { opacity: 1; transform: scale(1.25); filter: brightness(1.8) drop-shadow(0 0 4px #ff7597); }
+        67.76% { opacity: 0.7; transform: scale(0.6); }
+        68.56% { opacity: 0; transform: scale(0); visibility: hidden; }
         98.5% { opacity: 0; transform: scale(0); visibility: hidden; }
         100% { opacity: 1; transform: scale(1); visibility: visible; }
       }
       .arcade-stone-s_52_0 {
-        animation: stoneDestroy_s_52_0 9.4s linear infinite;
+        animation: stoneDestroy_s_52_0 13.1s linear infinite;
         transform-origin: 781.25px 57.25px;
         transform-box: view-box;
       }
@@ -741,398 +823,398 @@
       <text x="48" y="40" class="axis-label">Sep</text>
       <text x="90" y="40" class="axis-label">Oct</text>
       <text x="132" y="40" class="axis-label">Nov</text>
-      <text x="202" y="40" class="axis-label">Dec</text>
-      <text x="258" y="40" class="axis-label">Jan</text>
-      <text x="314" y="40" class="axis-label">Feb</text>
-      <text x="370" y="40" class="axis-label">Mar</text>
-      <text x="440" y="40" class="axis-label">Apr</text>
-      <text x="496" y="40" class="axis-label">May</text>
-      <text x="566" y="40" class="axis-label">Jun</text>
-      <text x="622" y="40" class="axis-label">Jul</text>
-      <text x="678" y="40" class="axis-label">Aug</text>
-      <text x="748" y="40" class="axis-label">Sep</text>
+      <text x="188" y="40" class="axis-label">Dec</text>
+      <text x="244" y="40" class="axis-label">Jan</text>
+      <text x="300" y="40" class="axis-label">Feb</text>
+      <text x="356" y="40" class="axis-label">Mar</text>
+      <text x="426" y="40" class="axis-label">Apr</text>
+      <text x="482" y="40" class="axis-label">May</text>
+      <text x="552" y="40" class="axis-label">Jun</text>
+      <text x="608" y="40" class="axis-label">Jul</text>
+      <text x="664" y="40" class="axis-label">Aug</text>
+      <text x="734" y="40" class="axis-label">Sep</text>
     </g>
 
     <!-- Space Stones / Asteroid Contribution Field -->
     <g id="space-stones-grid">
-      <g><circle cx="53.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-21 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-22 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-23 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-24 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-25 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-26 (Level 0)</title></g>
-      <g><circle cx="53.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-27 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-28 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-29 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-30 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-01 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-02 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-03 (Level 0)</title></g>
-      <g><circle cx="67.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-04 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-05 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-06 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-07 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-08 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-09 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-10 (Level 0)</title></g>
-      <g><circle cx="81.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-11 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-12 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-13 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-14 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-15 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-16 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-17 (Level 0)</title></g>
-      <g><circle cx="95.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-18 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-19 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-20 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-21 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-22 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-23 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-24 (Level 0)</title></g>
-      <g><circle cx="109.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-25 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-26 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-27 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-28 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-29 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-30 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-31 (Level 0)</title></g>
-      <g><circle cx="123.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-01 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-02 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-03 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-04 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-05 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-06 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-07 (Level 0)</title></g>
-      <g><circle cx="137.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-08 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-09 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-10 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-11 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-12 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-13 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-14 (Level 0)</title></g>
-      <g><circle cx="151.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-15 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-16 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-17 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-18 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-19 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-20 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-21 (Level 0)</title></g>
-      <g><circle cx="165.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-22 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-23 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-24 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-25 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-26 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-27 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-28 (Level 0)</title></g>
-      <g><circle cx="179.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-29 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-30 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-01 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-02 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-03 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-04 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-05 (Level 0)</title></g>
-      <g><circle cx="193.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-06 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-07 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-08 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-09 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-10 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-11 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-12 (Level 0)</title></g>
-      <g><circle cx="207.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-13 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-14 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-15 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-16 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-17 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-18 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-19 (Level 0)</title></g>
-      <g><circle cx="221.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-20 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-21 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-22 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-23 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-24 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-25 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-26 (Level 0)</title></g>
-      <g><circle cx="235.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-27 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-28 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-29 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-30 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-31 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-01 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-02 (Level 0)</title></g>
-      <g><circle cx="249.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-03 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-04 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-05 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-06 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-07 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-08 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-09 (Level 0)</title></g>
-      <g><circle cx="263.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-10 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-11 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-12 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-13 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-14 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-15 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-16 (Level 0)</title></g>
-      <g><circle cx="277.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-17 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-18 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-19 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-20 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-21 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-22 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-23 (Level 0)</title></g>
-      <g><circle cx="291.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-24 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-25 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-26 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-27 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-28 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-29 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-30 (Level 0)</title></g>
-      <g><circle cx="305.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-31 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-01 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-02 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-03 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-04 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-05 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-06 (Level 0)</title></g>
-      <g><circle cx="319.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-07 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-08 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-09 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-10 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-11 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-12 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-13 (Level 0)</title></g>
-      <g><circle cx="333.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-14 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-15 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-16 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-17 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-18 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-19 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-20 (Level 0)</title></g>
-      <g><circle cx="347.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-21 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-22 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-23 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-24 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-25 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-26 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-27 (Level 0)</title></g>
-      <g><circle cx="361.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-28 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-01 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-02 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-03 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-04 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-05 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-06 (Level 0)</title></g>
-      <g><circle cx="375.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-07 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-08 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-09 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-10 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-11 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-12 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-13 (Level 0)</title></g>
-      <g><circle cx="389.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-14 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-15 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-16 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-17 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-18 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-19 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-20 (Level 0)</title></g>
-      <g><circle cx="403.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-21 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-22 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-23 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-24 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-25 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-26 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-27 (Level 0)</title></g>
-      <g><circle cx="417.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-28 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-29 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-30 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-31 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-01 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-02 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-03 (Level 0)</title></g>
-      <g><circle cx="431.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-04 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-05 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-06 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-07 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-08 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-09 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-10 (Level 0)</title></g>
-      <g><circle cx="445.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-11 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-12 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-13 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-14 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-15 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-16 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-17 (Level 0)</title></g>
-      <g><circle cx="459.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-18 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-19 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-20 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-21 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-22 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-23 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-24 (Level 0)</title></g>
-      <g><circle cx="473.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-25 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-26 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-27 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-28 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-29 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-30 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-01 (Level 0)</title></g>
-      <g><circle cx="487.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-02 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-03 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-04 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-05 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-06 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-07 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-08 (Level 0)</title></g>
-      <g><circle cx="501.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-09 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-10 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-11 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-12 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-13 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-14 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-15 (Level 0)</title></g>
-      <g><circle cx="515.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-16 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-17 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-18 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-19 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-20 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-21 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-22 (Level 0)</title></g>
-      <g><circle cx="529.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-23 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-24 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-25 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-26 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-27 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-28 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-29 (Level 0)</title></g>
-      <g><circle cx="543.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-30 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-31 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-01 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-02 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-03 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-04 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-05 (Level 0)</title></g>
-      <g><circle cx="557.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-06 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-07 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-08 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-09 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-10 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-11 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-12 (Level 0)</title></g>
-      <g><circle cx="571.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-13 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-14 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-15 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-16 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-17 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-18 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-19 (Level 0)</title></g>
-      <g><circle cx="585.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-20 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-21 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-22 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-23 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-24 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-25 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-26 (Level 0)</title></g>
-      <g><circle cx="599.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-27 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-28 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-29 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-30 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-01 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-02 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-03 (Level 0)</title></g>
-      <g><circle cx="613.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-04 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-05 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-06 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-07 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-08 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-09 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-10 (Level 0)</title></g>
-      <g><circle cx="627.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-11 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-12 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-13 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-14 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-15 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-16 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-17 (Level 0)</title></g>
-      <g><circle cx="641.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-18 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-19 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-20 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-21 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-22 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-23 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-24 (Level 0)</title></g>
-      <g><circle cx="655.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-25 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-26 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-27 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-28 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-29 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-30 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-31 (Level 0)</title></g>
-      <g><circle cx="669.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-01 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-02 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-03 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-04 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-05 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-06 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-07 (Level 0)</title></g>
-      <g><circle cx="683.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-08 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-09 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-10 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-11 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-12 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-13 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-14 (Level 0)</title></g>
-      <g><circle cx="697.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-15 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-16 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-17 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-18 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-19 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-20 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-21 (Level 0)</title></g>
-      <g><circle cx="711.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-22 (Level 0)</title></g>
-      <g class="arcade-stone-s_48_0"><circle cx="725.3" cy="57.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="720.9,55.3 724.1,52.8 728.7,54.1 729.9,58.5 727.1,61.9 722.3,60.9" fill="#ffffff" /><polygon points="720.9,55.3 724.1,52.8 728.7,54.1 725.9,56.8 723.1,57.8" fill="#ffffff" /><polygon points="720.9,55.3 723.1,57.8 727.1,59.5 727.1,61.9 722.3,60.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-08-23 (Level 4)</title></g>
-      <g><circle cx="725.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-24 (Level 0)</title></g>
-      <g><circle cx="725.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-25 (Level 0)</title></g>
-      <g><circle cx="725.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-26 (Level 0)</title></g>
-      <g><circle cx="725.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-27 (Level 0)</title></g>
-      <g><circle cx="725.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-28 (Level 0)</title></g>
-      <g><circle cx="725.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-29 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-30 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-31 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-01 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-02 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-03 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-04 (Level 0)</title></g>
-      <g><circle cx="739.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-05 (Level 0)</title></g>
-      <g><circle cx="753.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-06 (Level 0)</title></g>
-      <g><circle cx="753.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-07 (Level 0)</title></g>
-      <g><circle cx="753.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-08 (Level 0)</title></g>
-      <g><circle cx="753.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-09 (Level 0)</title></g>
-      <g class="arcade-stone-s_50_4"><polygon points="751.8,112.5 754.1,111.8 754.9,113.8 753.5,114.9 751.8,114.2" fill="#94a3b8" /><polygon points="751.8,112.5 754.1,111.8 753.3,113.3 752.3,113.5" fill="#e2e8f0" /><title>1 contribution on 2026-09-10 (Level 1)</title></g>
-      <g><circle cx="753.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-11 (Level 0)</title></g>
-      <g><circle cx="753.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-12 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-13 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-14 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-15 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-16 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-17 (Level 0)</title></g>
-      <g><circle cx="767.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-18 (Level 0)</title></g>
-      <g class="arcade-stone-s_51_6"><polygon points="764.9,140.1 766.7,138.8 769.3,139.5 769.9,142.1 768.1,143.9 765.5,143.3" fill="#cbd5e1" /><polygon points="764.9,140.1 766.7,138.8 769.3,139.5 767.5,141.1 766.1,141.6" fill="#f1f5f9" /><polygon points="764.9,140.1 766.1,141.6 767.5,141.1 769.9,142.1 768.1,143.9 765.5,143.3" fill="#64748b" opacity="0.45" /><title>2 contributions on 2026-09-19 (Level 2)</title></g>
-      <g class="arcade-stone-s_52_0"><circle cx="781.3" cy="57.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="776.9,55.3 780.1,52.8 784.7,54.1 785.9,58.5 783.1,61.9 778.3,60.9" fill="#ffffff" /><polygon points="776.9,55.3 780.1,52.8 784.7,54.1 781.9,56.8 779.1,57.8" fill="#ffffff" /><polygon points="776.9,55.3 779.1,57.8 783.1,59.5 783.1,61.9 778.3,60.9" fill="#334155" opacity="0.4" /><title>5 contributions on 2026-09-20 (Level 4)</title></g>
-      <g class="arcade-stone-s_52_1"><polygon points="779.8,70.5 782.1,69.8 782.9,71.8 781.5,72.9 779.8,72.2" fill="#94a3b8" /><polygon points="779.8,70.5 782.1,69.8 781.3,71.3 780.3,71.5" fill="#e2e8f0" /><title>1 contribution on 2026-09-21 (Level 1)</title></g>
-      <g class="arcade-stone-s_52_2"><circle cx="781.3" cy="85.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="776.9,83.3 780.1,80.8 784.7,82.1 785.9,86.5 783.1,89.9 778.3,88.9" fill="#ffffff" /><polygon points="776.9,83.3 780.1,80.8 784.7,82.1 781.9,84.8 779.1,85.8" fill="#ffffff" /><polygon points="776.9,83.3 779.1,85.8 783.1,87.5 783.1,89.9 778.3,88.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-09-22 (Level 4)</title></g>
-      <g class="arcade-stone-s_52_3"><polygon points="777.9,97.7 780.3,95.8 783.9,96.7 784.9,100.3 782.7,102.9 778.9,102.1" fill="#e2e8f0" /><polygon points="777.9,97.7 780.3,95.8 783.9,96.7 781.7,98.9 779.5,99.7" fill="#ffffff" /><polygon points="777.9,97.7 779.5,99.7 782.7,101.1 782.7,102.9 778.9,102.1" fill="#475569" opacity="0.45" /><title>3 contributions on 2026-09-23 (Level 3)</title></g>
-      <g class="arcade-stone-s_52_4"><polygon points="777.9,111.7 780.3,109.8 783.9,110.7 784.9,114.3 782.7,116.9 778.9,116.1" fill="#e2e8f0" /><polygon points="777.9,111.7 780.3,109.8 783.9,110.7 781.7,112.9 779.5,113.7" fill="#ffffff" /><polygon points="777.9,111.7 779.5,113.7 782.7,115.1 782.7,116.9 778.9,116.1" fill="#475569" opacity="0.45" /><title>3 contributions on 2026-09-24 (Level 3)</title></g>
-      <g class="arcade-stone-s_52_5"><circle cx="781.3" cy="127.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="776.9,125.3 780.1,122.8 784.7,124.1 785.9,128.5 783.1,131.9 778.3,130.9" fill="#ffffff" /><polygon points="776.9,125.3 780.1,122.8 784.7,124.1 781.9,126.8 779.1,127.8" fill="#ffffff" /><polygon points="776.9,125.3 779.1,127.8 783.1,129.5 783.1,131.9 778.3,130.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-09-25 (Level 4)</title></g>
-      <g class="arcade-stone-s_52_6"><circle cx="781.3" cy="141.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="776.9,139.3 780.1,136.8 784.7,138.1 785.9,142.5 783.1,145.9 778.3,144.9" fill="#ffffff" /><polygon points="776.9,139.3 780.1,136.8 784.7,138.1 781.9,140.8 779.1,141.8" fill="#ffffff" /><polygon points="776.9,139.3 779.1,141.8 783.1,143.5 783.1,145.9 778.3,144.9" fill="#334155" opacity="0.4" /><title>5 contributions on 2026-09-26 (Level 4)</title></g>
+      <g><circle cx="53.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-28 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-29 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-09-30 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-01 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-02 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-03 (Level 0)</title></g>
+      <g><circle cx="53.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-04 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-05 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-06 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-07 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-08 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-09 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-10 (Level 0)</title></g>
+      <g><circle cx="67.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-11 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-12 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-13 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-14 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-15 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-16 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-17 (Level 0)</title></g>
+      <g><circle cx="81.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-18 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-19 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-20 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-21 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-22 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-23 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-24 (Level 0)</title></g>
+      <g><circle cx="95.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-25 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-26 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-27 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-28 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-29 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-30 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-10-31 (Level 0)</title></g>
+      <g><circle cx="109.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-01 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-02 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-03 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-04 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-05 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-06 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-07 (Level 0)</title></g>
+      <g><circle cx="123.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-08 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-09 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-10 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-11 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-12 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-13 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-14 (Level 0)</title></g>
+      <g><circle cx="137.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-15 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-16 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-17 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-18 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-19 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-20 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-21 (Level 0)</title></g>
+      <g><circle cx="151.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-22 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-23 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-24 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-25 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-26 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-27 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-28 (Level 0)</title></g>
+      <g><circle cx="165.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-29 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-11-30 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-01 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-02 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-03 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-04 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-05 (Level 0)</title></g>
+      <g><circle cx="179.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-06 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-07 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-08 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-09 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-10 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-11 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-12 (Level 0)</title></g>
+      <g><circle cx="193.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-13 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-14 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-15 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-16 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-17 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-18 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-19 (Level 0)</title></g>
+      <g><circle cx="207.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-20 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-21 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-22 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-23 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-24 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-25 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-26 (Level 0)</title></g>
+      <g><circle cx="221.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-27 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-28 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-29 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-30 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2025-12-31 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-01 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-02 (Level 0)</title></g>
+      <g><circle cx="235.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-03 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-04 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-05 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-06 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-07 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-08 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-09 (Level 0)</title></g>
+      <g><circle cx="249.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-10 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-11 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-12 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-13 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-14 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-15 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-16 (Level 0)</title></g>
+      <g><circle cx="263.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-17 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-18 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-19 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-20 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-21 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-22 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-23 (Level 0)</title></g>
+      <g><circle cx="277.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-24 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-25 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-26 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-27 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-28 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-29 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-30 (Level 0)</title></g>
+      <g><circle cx="291.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-01-31 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-01 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-02 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-03 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-04 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-05 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-06 (Level 0)</title></g>
+      <g><circle cx="305.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-07 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-08 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-09 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-10 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-11 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-12 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-13 (Level 0)</title></g>
+      <g><circle cx="319.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-14 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-15 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-16 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-17 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-18 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-19 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-20 (Level 0)</title></g>
+      <g><circle cx="333.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-21 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-22 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-23 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-24 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-25 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-26 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-27 (Level 0)</title></g>
+      <g><circle cx="347.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-02-28 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-01 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-02 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-03 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-04 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-05 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-06 (Level 0)</title></g>
+      <g><circle cx="361.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-07 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-08 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-09 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-10 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-11 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-12 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-13 (Level 0)</title></g>
+      <g><circle cx="375.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-14 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-15 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-16 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-17 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-18 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-19 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-20 (Level 0)</title></g>
+      <g><circle cx="389.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-21 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-22 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-23 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-24 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-25 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-26 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-27 (Level 0)</title></g>
+      <g><circle cx="403.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-28 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-29 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-30 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-03-31 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-01 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-02 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-03 (Level 0)</title></g>
+      <g><circle cx="417.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-04 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-05 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-06 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-07 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-08 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-09 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-10 (Level 0)</title></g>
+      <g><circle cx="431.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-11 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-12 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-13 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-14 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-15 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-16 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-17 (Level 0)</title></g>
+      <g><circle cx="445.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-18 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-19 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-20 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-21 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-22 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-23 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-24 (Level 0)</title></g>
+      <g><circle cx="459.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-25 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-26 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-27 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-28 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-29 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-04-30 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-01 (Level 0)</title></g>
+      <g><circle cx="473.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-02 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-03 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-04 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-05 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-06 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-07 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-08 (Level 0)</title></g>
+      <g><circle cx="487.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-09 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-10 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-11 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-12 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-13 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-14 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-15 (Level 0)</title></g>
+      <g><circle cx="501.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-16 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-17 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-18 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-19 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-20 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-21 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-22 (Level 0)</title></g>
+      <g><circle cx="515.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-23 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-24 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-25 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-26 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-27 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-28 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-29 (Level 0)</title></g>
+      <g><circle cx="529.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-30 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-05-31 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-01 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-02 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-03 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-04 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-05 (Level 0)</title></g>
+      <g><circle cx="543.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-06 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-07 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-08 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-09 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-10 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-11 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-12 (Level 0)</title></g>
+      <g><circle cx="557.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-13 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-14 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-15 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-16 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-17 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-18 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-19 (Level 0)</title></g>
+      <g><circle cx="571.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-20 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-21 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-22 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-23 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-24 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-25 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-26 (Level 0)</title></g>
+      <g><circle cx="585.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-27 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-28 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-29 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-06-30 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-01 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-02 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-03 (Level 0)</title></g>
+      <g><circle cx="599.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-04 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-05 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-06 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-07 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-08 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-09 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-10 (Level 0)</title></g>
+      <g><circle cx="613.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-11 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-12 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-13 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-14 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-15 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-16 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-17 (Level 0)</title></g>
+      <g><circle cx="627.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-18 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-19 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-20 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-21 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-22 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-23 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-24 (Level 0)</title></g>
+      <g><circle cx="641.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-25 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-26 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-27 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-28 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-29 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-30 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-07-31 (Level 0)</title></g>
+      <g><circle cx="655.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-01 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-02 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-03 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-04 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-05 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-06 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-07 (Level 0)</title></g>
+      <g><circle cx="669.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-08 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-09 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-10 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-11 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-12 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-13 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-14 (Level 0)</title></g>
+      <g><circle cx="683.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-15 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-16 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-17 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-18 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-19 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-20 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-21 (Level 0)</title></g>
+      <g><circle cx="697.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-22 (Level 0)</title></g>
+      <g class="arcade-stone-s_47_0"><circle cx="711.3" cy="57.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="706.9,55.3 710.1,52.8 714.7,54.1 715.9,58.5 713.1,61.9 708.3,60.9" fill="#ffffff" /><polygon points="706.9,55.3 710.1,52.8 714.7,54.1 711.9,56.8 709.1,57.8" fill="#ffffff" /><polygon points="706.9,55.3 709.1,57.8 713.1,59.5 713.1,61.9 708.3,60.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-08-23 (Level 4)</title></g>
+      <g><circle cx="711.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-24 (Level 0)</title></g>
+      <g><circle cx="711.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-25 (Level 0)</title></g>
+      <g><circle cx="711.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-26 (Level 0)</title></g>
+      <g><circle cx="711.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-27 (Level 0)</title></g>
+      <g><circle cx="711.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-28 (Level 0)</title></g>
+      <g><circle cx="711.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-29 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-30 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-08-31 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-01 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-02 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-03 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-04 (Level 0)</title></g>
+      <g><circle cx="725.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-05 (Level 0)</title></g>
+      <g><circle cx="739.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-06 (Level 0)</title></g>
+      <g><circle cx="739.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-07 (Level 0)</title></g>
+      <g><circle cx="739.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-08 (Level 0)</title></g>
+      <g><circle cx="739.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-09 (Level 0)</title></g>
+      <g class="arcade-stone-s_49_4"><polygon points="737.8,112.5 740.1,111.8 740.9,113.8 739.5,114.9 737.8,114.2" fill="#94a3b8" /><polygon points="737.8,112.5 740.1,111.8 739.3,113.3 738.3,113.5" fill="#e2e8f0" /><title>1 contribution on 2026-09-10 (Level 1)</title></g>
+      <g><circle cx="739.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-11 (Level 0)</title></g>
+      <g><circle cx="739.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-12 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="57.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-13 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-14 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-15 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-16 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-17 (Level 0)</title></g>
+      <g><circle cx="753.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-18 (Level 0)</title></g>
+      <g class="arcade-stone-s_50_6"><polygon points="750.9,140.1 752.7,138.8 755.3,139.5 755.9,142.1 754.1,143.9 751.5,143.3" fill="#cbd5e1" /><polygon points="750.9,140.1 752.7,138.8 755.3,139.5 753.5,141.1 752.1,141.6" fill="#f1f5f9" /><polygon points="750.9,140.1 752.1,141.6 753.5,141.1 755.9,142.1 754.1,143.9 751.5,143.3" fill="#64748b" opacity="0.45" /><title>2 contributions on 2026-09-19 (Level 2)</title></g>
+      <g class="arcade-stone-s_51_0"><circle cx="767.3" cy="57.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="762.9,55.3 766.1,52.8 770.7,54.1 771.9,58.5 769.1,61.9 764.3,60.9" fill="#ffffff" /><polygon points="762.9,55.3 766.1,52.8 770.7,54.1 767.9,56.8 765.1,57.8" fill="#ffffff" /><polygon points="762.9,55.3 765.1,57.8 769.1,59.5 769.1,61.9 764.3,60.9" fill="#334155" opacity="0.4" /><title>5 contributions on 2026-09-20 (Level 4)</title></g>
+      <g class="arcade-stone-s_51_1"><polygon points="765.8,70.5 768.1,69.8 768.9,71.8 767.5,72.9 765.8,72.2" fill="#94a3b8" /><polygon points="765.8,70.5 768.1,69.8 767.3,71.3 766.3,71.5" fill="#e2e8f0" /><title>1 contribution on 2026-09-21 (Level 1)</title></g>
+      <g class="arcade-stone-s_51_2"><circle cx="767.3" cy="85.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="762.9,83.3 766.1,80.8 770.7,82.1 771.9,86.5 769.1,89.9 764.3,88.9" fill="#ffffff" /><polygon points="762.9,83.3 766.1,80.8 770.7,82.1 767.9,84.8 765.1,85.8" fill="#ffffff" /><polygon points="762.9,83.3 765.1,85.8 769.1,87.5 769.1,89.9 764.3,88.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-09-22 (Level 4)</title></g>
+      <g class="arcade-stone-s_51_3"><polygon points="763.9,97.7 766.3,95.8 769.9,96.7 770.9,100.3 768.7,102.9 764.9,102.1" fill="#e2e8f0" /><polygon points="763.9,97.7 766.3,95.8 769.9,96.7 767.7,98.9 765.5,99.7" fill="#ffffff" /><polygon points="763.9,97.7 765.5,99.7 768.7,101.1 768.7,102.9 764.9,102.1" fill="#475569" opacity="0.45" /><title>3 contributions on 2026-09-23 (Level 3)</title></g>
+      <g class="arcade-stone-s_51_4"><polygon points="763.9,111.7 766.3,109.8 769.9,110.7 770.9,114.3 768.7,116.9 764.9,116.1" fill="#e2e8f0" /><polygon points="763.9,111.7 766.3,109.8 769.9,110.7 767.7,112.9 765.5,113.7" fill="#ffffff" /><polygon points="763.9,111.7 765.5,113.7 768.7,115.1 768.7,116.9 764.9,116.1" fill="#475569" opacity="0.45" /><title>3 contributions on 2026-09-24 (Level 3)</title></g>
+      <g class="arcade-stone-s_51_5"><circle cx="767.3" cy="127.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="762.9,125.3 766.1,122.8 770.7,124.1 771.9,128.5 769.1,131.9 764.3,130.9" fill="#ffffff" /><polygon points="762.9,125.3 766.1,122.8 770.7,124.1 767.9,126.8 765.1,127.8" fill="#ffffff" /><polygon points="762.9,125.3 765.1,127.8 769.1,129.5 769.1,131.9 764.3,130.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-09-25 (Level 4)</title></g>
+      <g class="arcade-stone-s_51_6"><circle cx="767.3" cy="141.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="762.9,139.3 766.1,136.8 770.7,138.1 771.9,142.5 769.1,145.9 764.3,144.9" fill="#ffffff" /><polygon points="762.9,139.3 766.1,136.8 770.7,138.1 767.9,140.8 765.1,141.8" fill="#ffffff" /><polygon points="762.9,139.3 765.1,141.8 769.1,143.5 769.1,145.9 764.3,144.9" fill="#334155" opacity="0.4" /><title>6 contributions on 2026-09-26 (Level 4)</title></g>
+      <g class="arcade-stone-s_52_0"><circle cx="781.3" cy="57.3" r="6.2" fill="#ffffff" opacity="0.12" filter="url(#subtleStarAura)" /><polygon points="776.9,55.3 780.1,52.8 784.7,54.1 785.9,58.5 783.1,61.9 778.3,60.9" fill="#ffffff" /><polygon points="776.9,55.3 780.1,52.8 784.7,54.1 781.9,56.8 779.1,57.8" fill="#ffffff" /><polygon points="776.9,55.3 779.1,57.8 783.1,59.5 783.1,61.9 778.3,60.9" fill="#334155" opacity="0.4" /><title>4 contributions on 2026-09-27 (Level 4)</title></g>
+      <g><circle cx="781.3" cy="71.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-28 (Level 0)</title></g>
+      <g><circle cx="781.3" cy="85.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-29 (Level 0)</title></g>
+      <g><circle cx="781.3" cy="99.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-09-30 (Level 0)</title></g>
+      <g><circle cx="781.3" cy="113.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-10-01 (Level 0)</title></g>
+      <g><circle cx="781.3" cy="127.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-10-02 (Level 0)</title></g>
+      <g><circle cx="781.3" cy="141.3" r="1.0" fill="#141824" opacity="0.25" /><title>0 contributions on 2026-10-03 (Level 0)</title></g>
     </g>
 
     <!-- Arcade Impact Effects on Target Stones -->
     <g id="target-impacts" style="pointer-events: none;">
       
-    <g id="impact-s_48_0" transform="translate(725.3, 57.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_48_0">
+    <g id="impact-s_47_0" transform="translate(711.3, 57.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_47_0">
         
       <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
@@ -1149,8 +1231,8 @@
     </g>
   
       
-    <g id="impact-s_50_4" transform="translate(753.3, 113.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_50_4">
+    <g id="impact-s_49_4" transform="translate(739.3, 113.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_49_4">
         
       <path d="M 0,-3.2 Q 0,0 3.2,0 Q 0,0 0,3.2 Q 0,0 -3.2,0 Q 0,0 0,-3.2 Z" fill="#fda4af" />
       <circle cx="0" cy="0" r="1.0" fill="#ffffff" />
@@ -1159,8 +1241,8 @@
     </g>
   
       
-    <g id="impact-s_51_6" transform="translate(767.3, 141.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_51_6">
+    <g id="impact-s_50_6" transform="translate(753.3, 141.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_50_6">
         
       <circle cx="0" cy="0" r="3.8" fill="none" stroke="#ff7597" stroke-width="0.8" />
       <circle cx="-2.5" cy="-2.5" r="0.85" fill="#fda4af" />
@@ -1171,8 +1253,8 @@
     </g>
   
       
-    <g id="impact-s_52_0" transform="translate(781.3, 57.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_0">
+    <g id="impact-s_51_0" transform="translate(767.3, 57.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_0">
         
       <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
@@ -1189,8 +1271,8 @@
     </g>
   
       
-    <g id="impact-s_52_1" transform="translate(781.3, 71.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_1">
+    <g id="impact-s_51_1" transform="translate(767.3, 71.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_1">
         
       <path d="M 0,-3.2 Q 0,0 3.2,0 Q 0,0 0,3.2 Q 0,0 -3.2,0 Q 0,0 0,-3.2 Z" fill="#fda4af" />
       <circle cx="0" cy="0" r="1.0" fill="#ffffff" />
@@ -1199,8 +1281,8 @@
     </g>
   
       
-    <g id="impact-s_52_2" transform="translate(781.3, 85.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_2">
+    <g id="impact-s_51_2" transform="translate(767.3, 85.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_2">
         
       <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
@@ -1217,8 +1299,8 @@
     </g>
   
       
-    <g id="impact-s_52_3" transform="translate(781.3, 99.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_3">
+    <g id="impact-s_51_3" transform="translate(767.3, 99.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_3">
         
       <circle cx="0" cy="0" r="5" fill="#ff7597" opacity="0.25" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="4.2" fill="none" stroke="#ff7597" stroke-width="1.0" />
@@ -1232,8 +1314,8 @@
     </g>
   
       
-    <g id="impact-s_52_4" transform="translate(781.3, 113.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_4">
+    <g id="impact-s_51_4" transform="translate(767.3, 113.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_4">
         
       <circle cx="0" cy="0" r="5" fill="#ff7597" opacity="0.25" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="4.2" fill="none" stroke="#ff7597" stroke-width="1.0" />
@@ -1247,8 +1329,8 @@
     </g>
   
       
-    <g id="impact-s_52_5" transform="translate(781.3, 127.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_5">
+    <g id="impact-s_51_5" transform="translate(767.3, 127.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_5">
         
       <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
@@ -1265,8 +1347,26 @@
     </g>
   
       
-    <g id="impact-s_52_6" transform="translate(781.3, 141.3)" style="pointer-events: none;">
-      <g class="impact-burst-s_52_6">
+    <g id="impact-s_51_6" transform="translate(767.3, 141.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_51_6">
+        
+      <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
+      <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
+      <path d="M -2,0 Q 0,-3.5 2,-4 Q 3,0 4,2 Q 0,4.5 -3,2 Z" fill="#fda4af" opacity="0.9" />
+      <path d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z" fill="#ffffff" />
+      <circle cx="-5" cy="-3.5" r="1.1" fill="#ffffff" />
+      <circle cx="4.8" cy="-4" r="1.1" fill="#ff7597" />
+      <circle cx="5.5" cy="3.2" r="1.1" fill="#fda4af" />
+      <circle cx="-4.2" cy="4.5" r="1.1" fill="#ffffff" />
+      <circle cx="0" cy="5.2" r="0.9" fill="#fbcfe8" />
+      <circle cx="-1.2" cy="-5" r="0.9" fill="#fbcfe8" />
+    
+      </g>
+    </g>
+  
+      
+    <g id="impact-s_52_0" transform="translate(781.3, 57.3)" style="pointer-events: none;">
+      <g class="impact-burst-s_52_0">
         
       <circle cx="0" cy="0" r="7.5" fill="#ff6584" opacity="0.3" filter="url(#subtleStarAura)" />
       <circle cx="0" cy="0" r="5.8" fill="none" stroke="#ffffff" stroke-width="1.2" />
@@ -1290,7 +1390,7 @@
     <!-- Arcade Pink Projectiles (Fly from left turret across to target stones) -->
     <g id="arcade-projectiles-group">
       
-    <g id="projectile-s_48_0" class="arcade-projectile-s_48_0" style="pointer-events: none;">
+    <g id="projectile-s_47_0" class="arcade-projectile-s_47_0" style="pointer-events: none;">
       <!-- Glowing outer pink aura -->
       <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
       <!-- Elongated pulse core -->
@@ -1299,7 +1399,70 @@
     </g>
   
       
-    <g id="projectile-s_50_4" class="arcade-projectile-s_50_4" style="pointer-events: none;">
+    <g id="projectile-s_49_4" class="arcade-projectile-s_49_4" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_50_6" class="arcade-projectile-s_50_6" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_0" class="arcade-projectile-s_51_0" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_1" class="arcade-projectile-s_51_1" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_2" class="arcade-projectile-s_51_2" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_3" class="arcade-projectile-s_51_3" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_4" class="arcade-projectile-s_51_4" style="pointer-events: none;">
+      <!-- Glowing outer pink aura -->
+      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
+      <!-- Elongated pulse core -->
+      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
+      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
+    </g>
+  
+      
+    <g id="projectile-s_51_5" class="arcade-projectile-s_51_5" style="pointer-events: none;">
       <!-- Glowing outer pink aura -->
       <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
       <!-- Elongated pulse core -->
@@ -1318,60 +1481,6 @@
   
       
     <g id="projectile-s_52_0" class="arcade-projectile-s_52_0" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_1" class="arcade-projectile-s_52_1" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_2" class="arcade-projectile-s_52_2" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_3" class="arcade-projectile-s_52_3" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_4" class="arcade-projectile-s_52_4" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_5" class="arcade-projectile-s_52_5" style="pointer-events: none;">
-      <!-- Glowing outer pink aura -->
-      <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
-      <!-- Elongated pulse core -->
-      <ellipse cx="-1.5" cy="0" rx="3.0" ry="1.5" fill="#ff7597" />
-      <circle cx="0.5" cy="0" r="1.4" fill="#ffffff" />
-    </g>
-  
-      
-    <g id="projectile-s_52_6" class="arcade-projectile-s_52_6" style="pointer-events: none;">
       <!-- Glowing outer pink aura -->
       <circle cx="0" cy="0" r="3.2" fill="#ff7597" opacity="0.4" filter="url(#subtleStarAura)" />
       <!-- Elongated pulse core -->
