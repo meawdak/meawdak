@@ -7,7 +7,7 @@
 
 ![GitHub Contributions](./space-contribution.svg)
 
-## GitHub Stats
+<h2 align="center"> GitHub Stats </h2>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=meawdak&background=0D1117&border=30363D&stroke=30363D&ring=C77DFF&fire=FF69B4&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF69B4&sideLabels=C77DFF&dates=888888" />
